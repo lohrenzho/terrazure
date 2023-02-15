@@ -1,0 +1,81 @@
+// variable "resource_group_name" {
+//     type = string
+//   default = "zho_testRG"
+// }
+
+// variable "location" {
+//     type = string
+//   default = "westus"
+// }
+
+// variable "vnet_name" {
+//     type = string
+//   default = "Core-Dev-Vnet"
+// }
+
+// variable "vnet_prefix" {
+//     type = list(string)
+//   default = ["10.7.0.0/16"]
+// }
+
+// variable "subnet1_name" {
+//     type = string
+//   default = "Core_Dev_SQL_Subnet"
+// }
+
+// variable "subnet2_name" {
+//     type = string
+//   default = "Core_App_Subnet"
+// }
+
+// variable "subnet1_prefix" {
+//     type = list(string)
+//   default = ["10.3.0.0/24"]
+// }
+
+// variable "subnet2_prefix" {
+//     type = list(string)
+//   default = ["10.3.1.0/24"]
+// }
+
+
+// variable "nic1-name" {
+//     type = string
+//   default = "nic1"
+// }
+
+// variable "nic2_name" {
+//     type = string
+//   default = "nic2"
+// }
+
+// ##variable "storage_account_name" {
+// ##    type = string
+// ##  default = "Zhostorage"
+// ##}
+
+// ##variable "container_name" {
+// ##    type = string
+// ##  default = "Zho"
+// ##}
+
+// variable "vm_sql_server" {
+//     type = string
+//   default = "Core-DevSQL01"
+// }
+
+// variable "vm_app_server" {
+//     type = string
+//   default = "Core-DevApp01"
+// }
+
+
+// variable "vm_size" {
+//     type = string
+//   default = "Standard_B8ms"
+// }
+
+// variable "tags" {
+//     type = string
+//   default = "Development"
+// }
